@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/EmbarcaTech_ControlePWM.uf2"
+elf = "build/EmbarcaTech_ControlePWM.elf"
