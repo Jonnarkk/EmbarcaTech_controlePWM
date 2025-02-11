@@ -40,7 +40,7 @@ e também
 <p align = "center">   
 <img src="https://github.com/user-attachments/assets/d21b5d72-3c24-4fdf-b3e1-10457b464c37" width="180" height="55" />
 <p>
-dando como resultado 7864 (180°), 4817 (90°), 1638 (0°) e 17 (STEP de 5 µs).
+dando como resultado: 7864 (180°), 4817 (90°), 1638 (0°) e 17 (STEP de 5 µs).
 
 ## Link com o vídeo explicativo
 
