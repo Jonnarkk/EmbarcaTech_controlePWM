@@ -7,6 +7,7 @@
 #define WRAP 65535 // Valor padrão do contador 16 bits
 #define MAIOR_ANGULO 7864 // Limite superior do servomotor
 #define MENOR_ANGULO 1638 // Limite inferior do servomotor
+#define DIV_CLOCK 38.0 // Valor do divisor de clock
 #define STEP 17 // Passo do incremento ou decremento do ângulo
 
 // Função para inicialização do PWM - f_pwm = 50Hz, T_pwm = 20ms
@@ -16,7 +17,7 @@ void pwm_inicial_setup(){
     uint slice = pwm_gpio_to_slice_num(SERVOMOTORPWM_PIN); // Salva o slice do pino 22 na variável slice
     pwm_config config = pwm_get_default_config(); // Salvando configuração padrão do PWM na variável config
 
-    pwm_config_set_clkdiv(&config, 38.0); // Configurando o divisor de clock para 38.0 - Nâo utilizei parte fracionária
+    pwm_config_set_clkdiv(&config, DIV_CLOCK); // Configurando o divisor de clock para 38.0 - Nâo utilizei parte fracionária
 
     pwm_config_set_wrap(&config, WRAP); // Configurando WRAP para 65535
 
