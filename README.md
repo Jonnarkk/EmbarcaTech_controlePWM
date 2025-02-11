@@ -43,6 +43,7 @@ e também
 dando como resultado: 7864 (180°), 4817 (90°), 1638 (0°) e 17 (STEP de 5 µs).
 
 ## Link com o vídeo explicativo
+https://drive.google.com/file/d/1rmUM2EYGP0KZ66MuIfSY4yL3rIN2T00A/view?usp=sharing
 
 ## Desenvolvedor
 Guilherme Miller Gama Cardoso
