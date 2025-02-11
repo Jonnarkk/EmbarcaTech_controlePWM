@@ -19,8 +19,10 @@ O código está organizado em funções principais de configuração e ajuste do
 Os valores utilizados neste código foram, em sua maioria, escolhidos através do uso de fórmulas matemáticas
 trabalhadas na aula síncrona e materiais complementares. 
 
-- **Frequência**: A frequência de 50Hz foi achada com a fórmula:  
-![Image](https://github.com/user-attachments/assets/09eeb442-d57d-4ce8-b0d3-54699e6eee6c)
+- **Frequência**: A frequência de 50Hz foi achada com a fórmula:
+<p align = "center">   
+<img src="https://github.com/user-attachments/assets/09eeb442-d57d-4ce8-b0d3-54699e6eee6c" width="250" height="250" />
+<p>
 
 - **WRAP**: O valor do wrap escolhido foi de 65535, o valor padrão, já que o wrap tem limite de 16 bis (0-65535).
 
